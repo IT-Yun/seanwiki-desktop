@@ -29,4 +29,8 @@ Keeping the notes on disk lets a developer inspect or correct a decision indepen
 
 Read [usage-display.ts](usage-display.ts) to see how the workspace distinguishes fresh usage limits from stale readings. This is an excerpt from the original app.
 
+## Try a project handover
+
+Run `node read-notes.mjs` with Node.js 24 or newer. It reads a fictional project decision using the same [note reader](project-notes.ts) that feeds the desktop workspace. Edit the [sample note](sample-project/wiki/listing-prices.md) and rerun the command to see what the next coding session can pick up.
+
 [Back to the project index](https://github.com/IT-Yun/IT-Yun)
